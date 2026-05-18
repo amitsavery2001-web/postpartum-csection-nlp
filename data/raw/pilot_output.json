@@ -1,0 +1,92 @@
+[
+  {
+    "message": "I've been feeling really worried since my surgery. My incision on my belly seems to be leaking a bit, and it feels warm to the touch. I noticed some redness spreading around it too, which isn't making me feel any better. Also, I've been having a fever; I checked, and my temperature was 38.5°C. I feel like I might be getting an infection or something worse. I just don't know if this is normal or if I should be more concerned. Can someone please help me?",
+    "style_attributes": {
+      "speaker": "patient",
+      "anxiety": "high",
+      "medical_literacy": "low",
+      "understatement": "low",
+      "message_length": "long",
+      "directness": "indirect",
+      "symptom_certainty": "clear"
+    },
+    "labels": {
+      "infection_warning": 1,
+      "wound_problem": 1,
+      "bleeding_warning": 0,
+      "severe_pain_warning": 0,
+      "urinary_problem": 0,
+      "respiratory_warning": 0,
+      "leg_clot_warning": 0,
+      "routine_recovery": 0
+    },
+    "evidence_spans": {
+      "wound_problem": [
+        "my incision on my belly seems to be leaking a bit",
+        "feels warm to the touch"
+      ],
+      "infection_warning": [
+        "some redness spreading around it",
+        "my temperature was 38.5°C"
+      ]
+    }
+  },
+  {
+    "message": "The patient is showing signs of potential complications. I've observed unilateral swelling in her lower leg that seems persistent, accompanied by some discomfort. While I believe it's manageable, it could indicate a DVT risk, so I recommend further evaluation to ensure her safety.",
+    "style_attributes": {
+      "speaker": "caregiver",
+      "anxiety": "low",
+      "medical_literacy": "high",
+      "understatement": "high",
+      "message_length": "short",
+      "directness": "explicit",
+      "symptom_certainty": "clear"
+    },
+    "labels": {
+      "infection_warning": 0,
+      "wound_problem": 0,
+      "bleeding_warning": 0,
+      "severe_pain_warning": 0,
+      "urinary_problem": 0,
+      "respiratory_warning": 0,
+      "leg_clot_warning": 1,
+      "routine_recovery": 0
+    },
+    "evidence_spans": {
+      "leg_clot_warning": [
+        "unilateral swelling in her lower leg",
+        "could indicate a DVT risk"
+      ]
+    }
+  },
+  {
+    "message": "Hey, I wanted to mention that things have been pretty normal since my procedure. I'm just a bit tired and feeling some mild soreness around my scar. It itches sometimes, but I'm assuming that’s just part of healing. I've also had some constipation, which isn't great. Overall, nothing feels alarming, just like typical after-surgery recovery. I’m not soaking any pads or anything like that, and the bleeding is light.",
+    "style_attributes": {
+      "speaker": "patient",
+      "anxiety": "high",
+      "medical_literacy": "low",
+      "understatement": "low",
+      "message_length": "medium",
+      "directness": "indirect",
+      "symptom_certainty": "ambiguous"
+    },
+    "labels": {
+      "infection_warning": 0,
+      "wound_problem": 0,
+      "bleeding_warning": 0,
+      "severe_pain_warning": 0,
+      "urinary_problem": 0,
+      "respiratory_warning": 0,
+      "leg_clot_warning": 0,
+      "routine_recovery": 1
+    },
+    "evidence_spans": {
+      "routine_recovery": [
+        "things have been pretty normal since my procedure",
+        "just a bit tired and feeling some mild soreness around my scar",
+        "It itches sometimes",
+        "I’ve also had some constipation"
+      ]
+    }
+  }
+]
